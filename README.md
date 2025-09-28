@@ -8,7 +8,7 @@ The goal is to understand the evolution of **statistical language models (N-gram
 
 ---
 
-## 🚀 Models Implemented
+##  Models Implemented
 1. **Unigram Language Model**  
    - Assumes characters are independent.  
    - Baseline model; poor quality output.  
@@ -31,11 +31,11 @@ The goal is to understand the evolution of **statistical language models (N-gram
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 - **Metric:** Perplexity (lower = better).  
 - **Qualitative:** Generate novel city names and compare realism.  
 
-### ✅ Expected Results:
+###  Expected Results:
 - **Unigram:** Random nonsense (no structure).  
 - **Bigram/Trigram:** Some structure (e.g., "Delhi" → "Dehli").  
 - **Neural N-gram:** More fluent, fewer nonsense names.  
