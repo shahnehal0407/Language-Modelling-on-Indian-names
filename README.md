@@ -1,6 +1,6 @@
-# 📝 Assignment 2: Language Modelling (DS207 – Intro to NLP)
+#  Assignment 2: Language Modelling (DS207 – Intro to NLP)
 
-## 📖 Overview
+##  Overview
 This project implements and compares **character-level language models** to generate city names.  
 The assignment was part of the **Intro to NLP (DS207)** course at IISc, guided by TA Yash Patel.  
 
@@ -43,7 +43,7 @@ The goal is to understand the evolution of **statistical language models (N-gram
 
 ---
 
-## 🔧 Setup & Running
+##  Setup & Running
 Clone this repo and install dependencies:
 ```bash
 git clone https://github.com/yourusername/language-modelling-assignment.git
@@ -58,7 +58,7 @@ jupyter notebook Assignment_2_Language_Modelling.ipynb
 
 ---
 
-## 🏆 Sample Outputs
+## Sample Outputs
 *(replace with your actual generated outputs)*
 
 - **Unigram:** `axxq, lrrpa, oottm`  
@@ -69,7 +69,7 @@ jupyter notebook Assignment_2_Language_Modelling.ipynb
 
 ---
 
-## 📚 Learnings
+##  Learnings
 - Understood trade-offs between **statistical** vs **neural** models.  
 - Observed **data sparsity problem** in N-grams and how neural embeddings help.  
 - Practiced **PyTorch implementation** of feedforward and recurrent LMs.  
@@ -77,6 +77,3 @@ jupyter notebook Assignment_2_Language_Modelling.ipynb
 
 ---
 
-## 👤 Author
-- **Nehal Shah** (M.Tech, CSA, IISc)  
-- Roll No: CS24M046  
