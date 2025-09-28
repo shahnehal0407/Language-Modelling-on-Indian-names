@@ -6,9 +6,9 @@ The assignment was part of the **Intro to NLP (DS207)** course at IISc, guided b
 
 The goal is to understand the evolution of **statistical language models (N-grams)** to **neural language models (Feedforward & RNNs)**, and evaluate their ability to model sequences.
 
----
 
-##  Models Implemented
+
+# Models Implemented
 1. **Unigram Language Model**  
    - Assumes characters are independent.  
    - Baseline model; poor quality output.  
@@ -29,21 +29,19 @@ The goal is to understand the evolution of **statistical language models (N-gram
    - Recurrent Neural Network processes sequences step-by-step.  
    - Captures long-range dependencies, produces most realistic names.  
 
----
 
-##  Evaluation
+
+# Evaluation
 - **Metric:** Perplexity (lower = better).  
 - **Qualitative:** Generate novel city names and compare realism.  
 
-###  Expected Results:
+# Expected Results:
 - **Unigram:** Random nonsense (no structure).  
 - **Bigram/Trigram:** Some structure (e.g., "Delhi" → "Dehli").  
 - **Neural N-gram:** More fluent, fewer nonsense names.  
 - **RNN:** Best performance, produces realistic new names.  
 
----
-
-##  Setup & Running
+# Setup & Running
 Clone this repo and install dependencies:
 ```bash
 git clone https://github.com/yourusername/language-modelling-assignment.git
@@ -56,9 +54,8 @@ Run the notebook in Jupyter/Colab:
 jupyter notebook Assignment_2_Language_Modelling.ipynb
 ```
 
----
 
-## Sample Outputs
+# Sample Outputs
 *(replace with your actual generated outputs)*
 
 - **Unigram:** `axxq, lrrpa, oottm`  
@@ -67,9 +64,7 @@ jupyter notebook Assignment_2_Language_Modelling.ipynb
 - **Neural N-gram:** `Ahmednagr, Suratpur`  
 - **RNN:** `Chandrapura, Vishakhapatnam`  
 
----
-
-##  Learnings
+#  Learnings
 - Understood trade-offs between **statistical** vs **neural** models.  
 - Observed **data sparsity problem** in N-grams and how neural embeddings help.  
 - Practiced **PyTorch implementation** of feedforward and recurrent LMs.  
